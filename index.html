@@ -14,34 +14,35 @@
 <body>
     <!-- header section -->
     <header>
-        <nav class="navbar navbar-expand-lg sticky-top px-3 py-2 bg-white bg-opacity-75">
+        <nav class="navbar navbar-expand-lg">
             <div class="container px-3">
-                <a class="navbar-brand" href="#"><img src="./assets/images/Logo.png" height="56px" alt="logo"></a>
+                <a class="navbar-brand" href="#"><img src="./assets/images/Logo.png" height="56px" alt="logo" class="img-fluid"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse fw-semibold lh-sm" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto gap-lg-3">
+                    <ul class="navbar-nav ms-auto gap-lg-3">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link text-dark" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link text-dark" href="#">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link text-dark" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-warning text-white rounded-0 px-2 py-1" href="#" role="button"><img
+                                    src="./assets/images/vector.png" alt="vector-account"><span
+                                    class="ms-2">Account</span>
+                            </a>
                         </li>
                     </ul>
-                    <div class="d-flex ms-lg-4">
-                        <a class="btn btn-warning text-white rounded-0 px-2 py-1 ms-3" href="#" role="button"><img
-                                src="./assets/images/vector.png" alt="vector-account"><span class="ms-2">Account</span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -50,16 +51,17 @@
     <!-- main section -->
     <main>
         <!-- hero section -->
-        <section class="bg-hero h-100">
+        <section class="bg-hero py-5">
             <div class="container py-5">
                 <div class="row py-5">
-                    <div class="col-lg-7 text-white py-5">
+                    <div class="col-lg-7 text-white">
                         <h1 class="fw-bold display-4">Marketing Made Easy for Mental Health Practices</h1>
-                        <p class="fw-medium fs-2 mb-5">Word of Mouth keeps your practice full</p>
-                        <a class="btn btn-warning text-white lh-base rounded-1 px-5 py-3 mb-5 fw-bold me-3 text-uppercase fs-4"
-                            href="#" role="button"><span>Sign Up Today</span>
+                        <p class="fw-medium fs-3 mb-4">Word of Mouth keeps your practice full</p>
+                        <a class="btn btn-warning text-white rounded-0 px-4 py-2 fw-bold text-uppercase fs-5" href="#"
+                            role="button"><span>Sign Up Today</span>
                         </a>
                     </div>
+                    <div class="col-lg-5"></div>
                 </div>
             </div>
         </section>
@@ -67,15 +69,15 @@
         <!-- about section -->
         <section class="container">
             <div class="row align-items-center my-5 py-2">
-                <div class="col-lg-8">
-                    <p class="fs-4">You became a therapist because you love helping people, not because you love
+                <div class="col-lg-7">
+                    <p class="fs-5">You became a therapist because you love helping people, not because you love
                         marketing. Now you
                         can leave that to Word of Mouth. Whether you’re growing a practice, keeping an established
                         practice full, or need to refer out, Word of Mouth makes it effortless to market your practice
                         to the colleagues that matter most. </p>
                 </div>
-                <div class="col-lg-4">
-                    <a class="btn btn-warning text-white rounded-0 px-5 py-3 fw-bold text-uppercase fs-4" href="#"
+                <div class="col-lg-4 text-center">
+                    <a class="btn btn-warning text-white rounded-0 px-4 py-2 fw-bold text-uppercase fs-5" href="#"
                         role="button"><span>Sign Up Today</span>
                     </a>
                 </div>
@@ -85,81 +87,71 @@
         <!-- features section -->
         <section class="bg-secondary">
             <div class="container">
-                <h2 class="text-primary fs-1 fw-semibold text-center pt-5 pb-3">Word of Mouth is for...</h2>
+                <h2 class="text-primary fs-1 fw-semibold text-center py-5 mb-0">Word of Mouth is for...</h2>
                 <div class="row pb-5">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-4">
                         <img src="./assets/images/new-practices.png" class="card-img-top" alt="new-practices">
-                        <div class="ps-0">
-                            <h4 class="fw-bold lh-base mt-3">New Practices</h4>
-                            <p class="text-body-secondary mb-2">Straightforward tools introduce you to referring
-                                colleagues and other professionals, making it fast and easy to fill a new practice
-                                with clients. </p>
-                            <a href="#" class="text-warning fw-semibold">Learn more</a>
-                        </div>
+                        <h4 class="fw-bold lh-base mt-3">New Practices</h4>
+                        <p class="mb-2">Straightforward tools introduce you to referring
+                            colleagues and other professionals, making it fast and easy to fill a new practice
+                            with clients. </p>
+                        <a href="#" class="text-warning fw-semibold">Learn more</a>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-4">
                         <img src="./assets/images/growing-sales.png" class="card-img-top" alt="growing-practices">
-                        <div class="ps-0">
-                            <h4 class="fw-bold lh-base mt-3">Growing Practices</h4>
-                            <p class="text-body-secondary mb-2">A simple click informs other clinicians when you
-                                have space for a new client, keeping your practice full and maximizing revenue. </p>
-                            <a href="#" class="text-warning fw-semibold">Learn more</a>
-                        </div>
+                        <h4 class="fw-bold lh-base mt-3">Growing Practices</h4>
+                        <p class="mb-2">A simple click informs other clinicians when you
+                            have space for a new client, keeping your practice full and maximizing revenue. </p>
+                        <a href="#" class="text-warning fw-semibold">Learn more</a>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-4">
                         <img src="./assets/images/established-practices.png" class="card-img-top"
                             alt="established-practices">
-                        <div class="ps-0">
-                            <h4 class="fw-bold lh-base mt-3">Established Practices</h4>
-                            <p class="text-body-secondary mb-2">A quick glance tells you which trusted colleagues
-                                have space for new clients when your practice is already full. </p>
-                            <a href="#" class="text-warning fw-semibold">Learn more</a>
-                        </div>
+                        <h4 class="fw-bold lh-base mt-3">Established Practices</h4>
+                        <p class="mb-2">A quick glance tells you which trusted colleagues
+                            have space for new clients when your practice is already full. </p>
+                        <a href="#" class="text-warning fw-semibold">Learn more</a>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-4">
                         <img src="./assets/images/referring-profession.png" class="card-img-top"
                             alt="referring-profession">
-                        <div class="ps-0">
-                            <h4 class="fw-bold lh-base mt-3">Referring Professions</h4>
-                            <p class="text-body-secondary mb-2">A list of trusted mental healthcare providers
-                                enables you to assist your clients in getting the help they need. </p>
-                            <a href="#" class="text-warning fw-semibold">Learn more</a>
-                        </div>
+                        <h4 class="fw-bold lh-base mt-3">Referring Professions</h4>
+                        <p class="mb-2">A list of trusted mental healthcare providers
+                            enables you to assist your clients in getting the help they need. </p>
+                        <a href="#" class="text-warning fw-semibold">Learn more</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- /features section -->
         <!-- promoting section -->
-        <section>
-            <div class="container">
-                <h2 class="text-primary fs-1 fw-semibold text-center pt-5 pb-3">Promoting your practice has never been
-                    easier. </h2>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="./assets/images/profile.png" alt="profile-screenshot">
-                    </div>
-                    <div class="col-lg-6">
-                        <ul>
-                            <li>Clinician profiles provide the detail needed to attract referrals that match your
-                                expertise
-                            </li>
-                            <li>Notify others about your availability to take new clients
-                            </li>
-                            <li>Announcements communicate news about your practice to other therapists
-                            </li>
-                            <li>Connections build your professional network for receiving referrals, sending referrals
-                            </li>
-                            <li>Recommendations let your colleagues know what classes, books and treatment facilities
-                                you like
-                            </li>
-                            <li>Search features help identify clinicians outside of your immediate circle or locale
-                            </li>
-                            <li>Referral list keeps track of where your clients come from and who you send clients to
-                            </li>
-                            <li>Invite other professionals to grow Word of Mouth for everyone </li>
-                        </ul>
-                    </div>
+        <section class="container pt-3">
+            <h2 class="text-primary fs-1 fw-semibold text-center py-4">Promoting your practice has never been
+                easier. </h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <img src="./assets/images/profile.png" alt="profile-screenshot" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <ul>
+                        <li class="mb-2">Clinician profiles provide the detail needed to attract referrals that match your
+                            expertise
+                        </li>
+                        <li class="mb-2">Notify others about your availability to take new clients
+                        </li>
+                        <li class="mb-2">Announcements communicate news about your practice to other therapists
+                        </li>
+                        <li class="mb-2">Connections build your professional network for receiving referrals, sending referrals
+                        </li>
+                        <li class="mb-2">Recommendations let your colleagues know what classes, books and treatment facilities
+                            you like
+                        </li>
+                        <li class="mb-2">Search features help identify clinicians outside of your immediate circle or locale
+                        </li>
+                        <li class="mb-2">Referral list keeps track of where your clients come from and who you send clients to
+                        </li>
+                        <li class="mb-2">Invite other professionals to grow Word of Mouth for everyone </li>
+                    </ul>
                 </div>
         </section>
         <!-- /promoting section -->
@@ -167,50 +159,46 @@
     <!-- /main section -->
     <!-- footer section -->
     <footer>
-        <!-- footer top -->
         <section class="bg-primary">
             <div class="container">
-                <div class="row my-5 pt-3 justify-content-between text-white">
+                <div class="row mt-5 py-5 pe-3 text-white">
                     <div class="col-lg-3">
-                        <h4>ABOUT US</h4>
+                        <h5 class="text-uppercase fw-bold">ABOUT US</h5>
                         <p>Any sublinks or perhaps a small about blurb here?</p>
                     </div>
                     <div class="col-lg-3">
-                        <h4>HELP</h4>
+                        <h5 class="text-uppercase fw-bold">HELP</h5>
                         <p>Any sublinks?</p>
                     </div>
                     <div class="col-lg-3">
-                        <h5 class="mb-lg-4 text-uppercase">Account</h5>
-                        <ul class="list-unstyled text-secondary">
+                        <h5 class="text-uppercase fw-bold">Account</h5>
+                        <ul class="list-unstyled">
                             <li><a href="#" class="text-reset text-decoration-none">Manage Account</a></li>
                             <li><a href="#" class="text-reset text-decoration-none">Login</a></li>
                             <li><a href="#" class="text-reset text-decoration-none">Register</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <div class="fs-5 mb-4">knowing you're always on the best energy deal.</div>
-                        <div><input type="tel" class="form-control py-2 px-4 mb-3" placeholder="Enter your Phone Number"
-                                aria-label="phone" aria-describedby="basic-addon1">
-                            <a class="btn btn-warning text-white rounded-1 px-4 py-1 fw-semibold" href="#" role="button">Sign up
-                                Now
-                            </a>
+                        <h5 class="text-uppercase fw-bold">Mobile Apps</h5>
+                        <div class="d-md-flex d-grid">
+                            <img src="./assets/images/google-play-badge 1.svg" alt="play-store" class="img-fluid">
+                            <img src="./assets/images/app_store_badge 1.svg" alt="app-store" class="ms-md-4 ms-0 mt-2 mt-md-0 img-fluid">
+                        </div>
+                        <h5 class="text-uppercase fw-bold mt-4">Follow us</h5>
+                        <div class="d-flex">
+                            <img src="./assets/images/fb.png" alt="facebook" class="img-fluid">
+                            <img src="./assets/images/linkedin.png" alt="linkedin" class="ms-4 img-fluid">
                         </div>
                     </div>
                 </div>
-                <hr class="mb-0 border-secondary-subtle">
-                <div class="row p-3">
-                    <div class="col-lg-6 text-start">© 2024 Your Company Inc</div>
-                    <div class="col-lg-6 text-end">Made with <span><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                height="16" fill="red" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1" />
-                            </svg></span> by Gurleen Kaur</div>
+            </div>
+            <div class="bg-dark">
+                <div class="text-white text-center py-4 fw-medium">©2024 Word Of Mouth, Inc. -- Made by Gurleen Kaur
                 </div>
             </div>
         </section>
-        <!-- /footer top -->
     </footer>
-<!-- /footer section -->
+    <!-- /footer section -->
 </body>
 
 </html>
