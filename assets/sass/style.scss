@@ -1,0 +1,24 @@
+/*=== import partial variables sass file ===*/
+@import 'variables';
+
+/*=== import font file ===*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*=== font family ===*/
+$font-family-base: $font-montserrat;
+
+/*=== theme colors ===*/
+$theme-colors: (
+    "primary": $primary-color,
+    "secondary": $secondary-color,
+    "success": $success-color,
+    "info": $info-color,
+    "warning": $warning-color,
+    "danger": $danger-color,
+    "light": $light-color,
+    "dark": $dark-color
+);
+
+/*=== import bootstrap ===*/
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import 'custom';
