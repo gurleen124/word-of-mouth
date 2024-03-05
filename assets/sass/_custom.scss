@@ -1,3 +1,4 @@
+/*===== homepage bg image =====*/
 .bg-hero {
     background-image: url(/assets/images/hero-bg.png);
     background-size: cover;
@@ -16,7 +17,7 @@
                 background-color: $warning-color;
             }
         }
-
+        
         .btn-primary.active {
             background-color: $light-color;
             color: $primary-color;
@@ -49,6 +50,7 @@
     }
 }
 
+/*===== mixins =====*/
 @mixin default($default: $warning-color) {
 
     a.btn-warning {
@@ -80,12 +82,14 @@
     @include default($default: $danger-color);
 }
 
+/*===== lancding page bg image =====*/
 .bg-landing {
     background-image: url(/assets/images/landing-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+/*===== input form =====*/
 main {
     section {
         div {
@@ -103,7 +107,7 @@ main {
         }
     }
 }
-
+/*===== background image about page =====*/
 .bg-about {
     background-image: url(/assets/images/about-bg.png);
     background-size: cover;
