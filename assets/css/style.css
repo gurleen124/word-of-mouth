@@ -11961,4 +11961,10 @@ main section div input.form-control {
   padding-left: 5px;
 }
 
+.bg-about {
+  background-image: url(/assets/images/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=style.css.map */
