@@ -3,3 +3,77 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+// navbar nav link scss
+#navbarSupportedContent {
+    .navbar-nav {
+        .btn-warning.active {
+            background-color: $light-color;
+            color: $warning-color;
+
+            .btn-warning {
+                color: $light-color;
+                background-color: $warning-color;
+            }
+        }
+
+        .btn-primary.active {
+            background-color: $light-color;
+            color: $primary-color;
+
+            .btn-primary {
+                color: $light-color;
+                background-color: $primary-color;
+            }
+        }
+
+        .btn-success.active {
+            background-color: $light-color;
+            color: $success-color;
+
+            .btn-success {
+                color: $light-color;
+                background-color: $success-color;
+            }
+        }
+
+        .btn-danger.active {
+            background-color: $light-color;
+            color: $danger-color;
+
+            .btn-danger {
+                color: $light-color;
+                background-color: $danger-color;
+            }
+        }
+    }
+}
+
+@mixin default($default: $warning-color) {
+    
+        a.btn-warning {
+        background-color: $default !important;
+        border-color: $default !important;
+    }
+
+    h1,
+    h2,
+    h4 {
+        color: $default !important;
+}}
+
+.default {
+    @include default($default: $warning-color);
+}
+
+.primary {
+    @include default($default: $primary-color);
+}
+
+.success {
+    @include default($default: $success-color);
+}
+
+.danger {
+    @include default($default: $danger-color);
+}
