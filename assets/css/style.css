@@ -11894,6 +11894,9 @@ textarea.form-control-lg {
 }
 
 /*===== mixins =====*/
+.default a {
+  text-decoration-color: #F47852 !important;
+}
 .default a.btn-warning {
   background-color: #F47852 !important;
   border-color: #F47852 !important;
@@ -11901,12 +11904,15 @@ textarea.form-control-lg {
 .default h1, .default .h1,
 .default h2,
 .default .h2,
-.default h4,
-.default .h4,
-.default span {
+.default h4.textTheme,
+.default .textTheme.h4,
+.default span.textTheme {
   color: #F47852 !important;
 }
 
+.primary a {
+  text-decoration-color: #2D3282 !important;
+}
 .primary a.btn-warning {
   background-color: #2D3282 !important;
   border-color: #2D3282 !important;
@@ -11914,12 +11920,15 @@ textarea.form-control-lg {
 .primary h1, .primary .h1,
 .primary h2,
 .primary .h2,
-.primary h4,
-.primary .h4,
-.primary span {
+.primary h4.textTheme,
+.primary .textTheme.h4,
+.primary span.textTheme {
   color: #2D3282 !important;
 }
 
+.success a {
+  text-decoration-color: #198754 !important;
+}
 .success a.btn-warning {
   background-color: #198754 !important;
   border-color: #198754 !important;
@@ -11927,12 +11936,15 @@ textarea.form-control-lg {
 .success h1, .success .h1,
 .success h2,
 .success .h2,
-.success h4,
-.success .h4,
-.success span {
+.success h4.textTheme,
+.success .textTheme.h4,
+.success span.textTheme {
   color: #198754 !important;
 }
 
+.danger a {
+  text-decoration-color: #dc3545 !important;
+}
 .danger a.btn-warning {
   background-color: #dc3545 !important;
   border-color: #dc3545 !important;
@@ -11940,9 +11952,9 @@ textarea.form-control-lg {
 .danger h1, .danger .h1,
 .danger h2,
 .danger .h2,
-.danger h4,
-.danger .h4,
-.danger span {
+.danger h4.textTheme,
+.danger .textTheme.h4,
+.danger span.textTheme {
   color: #dc3545 !important;
 }
 

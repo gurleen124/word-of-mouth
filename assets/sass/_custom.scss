@@ -17,7 +17,7 @@
                 background-color: $warning-color;
             }
         }
-        
+
         .btn-primary.active {
             background-color: $light-color;
             color: $primary-color;
@@ -53,18 +53,24 @@
 /*===== mixins =====*/
 @mixin default($default: $warning-color) {
 
-    a.btn-warning {
-        background-color: $default !important;
-        border-color: $default !important;
+    a {
+        text-decoration-color: $default !important;
+
+        &.btn-warning {
+            background-color: $default !important;
+            border-color: $default !important;
+        }
     }
 
     h1,
     h2,
-    h4,
-    span {
+    h4.textTheme,
+    span.textTheme {
         color: $default !important;
     }
 }
+
+
 
 .default {
     @include default($default: $warning-color);
@@ -107,6 +113,7 @@ main {
         }
     }
 }
+
 /*===== background image about page =====*/
 .bg-about {
     background-image: url(/assets/images/about-bg.png);
