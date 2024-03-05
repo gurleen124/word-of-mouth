@@ -11900,7 +11900,8 @@ textarea.form-control-lg {
 .default h2,
 .default .h2,
 .default h4,
-.default .h4 {
+.default .h4,
+.default span {
   color: #F47852 !important;
 }
 
@@ -11912,7 +11913,8 @@ textarea.form-control-lg {
 .primary h2,
 .primary .h2,
 .primary h4,
-.primary .h4 {
+.primary .h4,
+.primary span {
   color: #2D3282 !important;
 }
 
@@ -11924,7 +11926,8 @@ textarea.form-control-lg {
 .success h2,
 .success .h2,
 .success h4,
-.success .h4 {
+.success .h4,
+.success span {
   color: #198754 !important;
 }
 
@@ -11936,8 +11939,26 @@ textarea.form-control-lg {
 .danger h2,
 .danger .h2,
 .danger h4,
-.danger .h4 {
+.danger .h4,
+.danger span {
   color: #dc3545 !important;
+}
+
+.bg-landing {
+  background-image: url(/assets/images/landing-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main section div select.form-select {
+  border: 1px solid #adb5bd;
+  --bs-form-select-bg-img: url(/assets/images/triangle.png);
+}
+main section div input.form-control {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border: 1px solid #adb5bd;
+  padding-left: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
