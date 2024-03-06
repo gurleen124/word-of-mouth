@@ -69,6 +69,11 @@
     span.textTheme {
         color: $default !important;
     }
+
+    button.textTheme {
+        background-color: $default !important;
+        border-color: $default !important;
+    }
 }
 
 
@@ -103,6 +108,7 @@ main {
             select.form-select {
                 border: 1px solid $dark-border-subtle;
                 --bs-form-select-bg-img: url(/assets/images/triangle.png);
+                background-size: 8px 12px;
             }
 
             input.form-control {
@@ -121,3 +127,55 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+nav {
+    div.d-grid {
+        justify-items: center;
+    }
+}
+
+// section {
+//     ul.nav-tabs {
+//         li {
+//             .nav-item.active {
+//                 background-color: $light-color;
+//                 color: $warning-color;
+
+//                 .nav-item {
+//                     color: $light-color;
+//                     background-color: $warning-color;
+//                 }
+//             }
+
+//             .btn-primary.active {
+//                 background-color: $light-color;
+//                 color: $primary-color;
+
+//                 .btn-primary {
+//                     color: $light-color;
+//                     background-color: $primary-color;
+//                 }
+//             }
+
+//             .btn-success.active {
+//                 background-color: $light-color;
+//                 color: $success-color;
+
+//                 .btn-success {
+//                     color: $light-color;
+//                     background-color: $success-color;
+//                 }
+//             }
+
+//             .btn-danger.active {
+//                 background-color: $light-color;
+//                 color: $danger-color;
+
+//                 .btn-danger {
+//                     color: $light-color;
+//                     background-color: $danger-color;
+//                 }
+//             }
+//         }
+//     }
+// }

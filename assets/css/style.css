@@ -11911,6 +11911,10 @@ textarea.form-control-lg {
 .default span.textTheme {
   color: #F47852 !important;
 }
+.default button.textTheme {
+  background-color: #F47852 !important;
+  border-color: #F47852 !important;
+}
 
 .primary a {
   text-decoration-color: #2D3282 !important;
@@ -11928,6 +11932,10 @@ textarea.form-control-lg {
 .primary .textTheme.h4,
 .primary span.textTheme {
   color: #2D3282 !important;
+}
+.primary button.textTheme {
+  background-color: #2D3282 !important;
+  border-color: #2D3282 !important;
 }
 
 .success a {
@@ -11947,6 +11955,10 @@ textarea.form-control-lg {
 .success span.textTheme {
   color: #198754 !important;
 }
+.success button.textTheme {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+}
 
 .danger a {
   text-decoration-color: #dc3545 !important;
@@ -11965,6 +11977,10 @@ textarea.form-control-lg {
 .danger span.textTheme {
   color: #dc3545 !important;
 }
+.danger button.textTheme {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
 
 /*===== lancding page bg image =====*/
 .bg-landing {
@@ -11977,6 +11993,7 @@ textarea.form-control-lg {
 main section div select.form-select {
   border: 1px solid #adb5bd;
   --bs-form-select-bg-img: url(/assets/images/triangle.png);
+  background-size: 8px 12px;
 }
 main section div input.form-control {
   border-top-left-radius: 5px !important;
@@ -11990,6 +12007,10 @@ main section div input.form-control {
   background-image: url(/assets/images/about-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+nav div.d-grid {
+  justify-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
