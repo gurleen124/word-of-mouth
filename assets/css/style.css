@@ -11904,6 +11904,8 @@ textarea.form-control-lg {
 .default h1, .default .h1,
 .default h2,
 .default .h2,
+.default h3.textTheme,
+.default .textTheme.h3,
 .default h4.textTheme,
 .default .textTheme.h4,
 .default span.textTheme {
@@ -11920,6 +11922,8 @@ textarea.form-control-lg {
 .primary h1, .primary .h1,
 .primary h2,
 .primary .h2,
+.primary h3.textTheme,
+.primary .textTheme.h3,
 .primary h4.textTheme,
 .primary .textTheme.h4,
 .primary span.textTheme {
@@ -11936,6 +11940,8 @@ textarea.form-control-lg {
 .success h1, .success .h1,
 .success h2,
 .success .h2,
+.success h3.textTheme,
+.success .textTheme.h3,
 .success h4.textTheme,
 .success .textTheme.h4,
 .success span.textTheme {
@@ -11952,6 +11958,8 @@ textarea.form-control-lg {
 .danger h1, .danger .h1,
 .danger h2,
 .danger .h2,
+.danger h3.textTheme,
+.danger .textTheme.h3,
 .danger h4.textTheme,
 .danger .textTheme.h4,
 .danger span.textTheme {

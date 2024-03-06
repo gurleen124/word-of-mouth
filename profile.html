@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word of Mouth</title>
+    <!-- style css file -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <!-- theme buttons -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container px-3">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fw-semibold lh-sm" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto gap-lg-3">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-warning active theme" data-bs-toggle="button"
+                                aria-pressed="true"><small class="theme-text text-capitalize">default</small></button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary theme" data-bs-toggle="button"><small
+                                    class="theme-text text-capitalize">primary</small></button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-success theme" data-bs-toggle="button"><small
+                                    class="theme-text text-capitalize">success</small></button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-danger theme" data-bs-toggle="button"><small
+                                    class="theme-text text-capitalize">danger</small></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr class="my-0">
+        <!-- /theme buttons -->
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container px-3">
+                <a class="navbar-brand" href="#"><img src="./assets/images/Logo.png" height="56px" alt="logo"
+                        class="img-fluid d-none d-md-flex">
+                    <img src="./assets/images/favicon-logo.png" alt="mobile-logo"
+                        class="img-fluid d-md-none d-flex"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fw-semibold lh-sm" id="navbarContent">
+                    <ul class="navbar-nav ms-auto gap-lg-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><img
+                                    src="./assets/images/Notifications.png" alt="notifications"></a>
+                        </li>
+                        <li class="nav-item align-self-center">
+                            <a class="nav-link" aria-current="page" href="#"><span
+                                    class="bg-primary text-white rounded-5 p-2">JD</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+    </header>
+    <!--  /header section  -->
+    <!-- main section -->
+    <main class="bg-secondary">
+        <!-- hero section -->
+        <section>
+            <div class="container px-0">
+                <h2 class="text-primary fs-1 fw-semibold py-4 mb-0">Profile</h2>
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-warning" for="btnradio1"><img src="./assets/images/vector.png"
+                            alt="profile"><span class="ms-2">Basic Info</span></label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="btnradio2"><img src="./assets/images/demographics.svg"
+                            alt="demographics"><span class="ms-2">Demographics</span></label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="btnradio3"><img src="./assets/images/treatment.png"
+                            alt="treatment"><span class="ms-2">Treatment Modalities</span></label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="btnradio4"><img src="./assets/images/specialities.png"
+                            alt="specialities"><span class="ms-2">Specialties</span></label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="btnradio5"><img src="./assets/images/client-focus.png"
+                            alt="client-focus"><span class="ms-2">Client Focus</span></label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="btnradio6"><img src="./assets/images/fees.png"
+                            alt="fees"><span class="ms-2">Fees</span></label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="btnradio7"><img src="./assets/images/recommendation.png"
+                            alt="recommendations"><span class="ms-2">Recommendations</span></label>
+                </div>
+            </div>
+        </section>
+        <!-- /hero section -->
+        <!-- info form section -->
+        <section class="container pt-3 bg-white px-5">
+            <form class="row g-3 needs-validation" novalidate>
+                <h3 class="text-primary fw-semibold py-4 textTheme">Basic Information</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control has-validation" id="fname"
+                                aria-describedby="basic-addon3 basic-addon4" value="John" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control has-validation" id="lname"
+                                aria-describedby="basic-addon3 basic-addon4" value="Doe">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="basic-url" class="form-label">Professional Degree</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-primary fw-semibold py-4 textTheme">Contact Information</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control has-validation" id="phone"
+                                aria-describedby="basic-addon3 basic-addon4" value="555-555-5555">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control has-validation" id="email"
+                                aria-describedby="basic-addon3 basic-addon4" value="john.doe@email.com">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="address" class="form-label">Street Address</label>
+                            <input type="text" class="form-control has-validation" id="address"
+                                aria-describedby="basic-addon3 basic-addon4" placeholder="Enter Street Address">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="city" class="form-label">City</label>
+                            <input type="text" class="form-control has-validation" id="city"
+                                aria-describedby="basic-addon3 basic-addon4" value="Cleveland">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="state" class="form-label">State</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Ohio</option>
+                                <option value="1">New York</option>
+                                <option value="2">California</option>
+                                <option value="3">NV</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="code" class="form-label">Zip Code</label>
+                            <input type="text" class="form-control has-validation" id="code"
+                                aria-describedby="basic-addon3 basic-addon4" value="44114">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="url" class="form-label">Website URL</label>
+                            <input type="url" class="form-control has-validation" id="url"
+                                aria-describedby="basic-addon3 basic-addon4" placeholder="Enter Website URL">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="contactMethod" class="form-label">Preferred Contact Method</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Email</option>
+                                <option value="1">Phone</option>
+                                <option value="2">Text</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-primary fw-semibold py-4 textTheme">Availability</h3>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="mb-3">
+                            <label for="basic-url" class="form-label">Ages Served</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>0-3</option>
+                                <option value="1">4-13</option>
+                                <option value="2">14-21</option>
+                                <option value="3">22-65</option>
+                                <option value="4">65+</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="hours" class="form-label">Office Hours</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Monday</option>
+                                <option value="1">Tuesday</option>
+                                <option value="2">Wednesday</option>
+                                <option value="3">Thursday</option>
+                                <option value="4">Friday</option>
+                                <option value="5">Saturday</option>
+                                <option value="6">Sunday</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="time" class="form-label">Time of the Day</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Morning</option>
+                                <option value="1">Afternoon</option>
+                                <option value="2">Evening</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                        <label class="form-check-label" for="flexCheckDefault1">
+                            Currently accepting new patients
+                        </label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                        <label class="form-check-label" for="flexCheckDefault2">
+                            Video/Teletherapy Provided
+                        </label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                        <label class="form-check-label" for="flexCheckDefault3">
+                            Notify favorite colleagues
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12 py-4 mt-0">
+                    <button class="btn btn-warning text-light text-uppercase fw-bold" type="submit">Save Changes</button>
+                </div>
+            </form>
+        </section>
+        <!-- /info form section -->
+    </main>
+    <!-- /main section -->
+    <!-- footer section -->
+    <footer>
+        <section class="bg-primary">
+            <div class="container">
+                <div class="row py-5 pe-3 text-white">
+                    <div class="col-lg-3">
+                        <h5 class="text-uppercase fw-bold">ABOUT US</h5>
+                        <p>Any sublinks or perhaps a small about blurb here?</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5 class="text-uppercase fw-bold">HELP</h5>
+                        <p>Any sublinks?</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5 class="text-uppercase fw-bold">Account</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-reset text-decoration-none">Manage Account</a></li>
+                            <li><a href="#" class="text-reset text-decoration-none">Login</a></li>
+                            <li><a href="#" class="text-reset text-decoration-none">Register</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5 class="text-uppercase fw-bold">Mobile Apps</h5>
+                        <div class="d-md-flex d-grid">
+                            <img src="./assets/images/google-play-badge 1.svg" alt="play-store" class="img-fluid">
+                            <img src="./assets/images/app_store_badge 1.svg" alt="app-store"
+                                class="ms-md-4 ms-0 mt-2 mt-md-0 img-fluid">
+                        </div>
+                        <h5 class="text-uppercase fw-bold mt-4">Follow us</h5>
+                        <div class="d-flex">
+                            <img src="./assets/images/fb.png" alt="facebook" class="img-fluid">
+                            <img src="./assets/images/linkedin.png" alt="linkedin" class="ms-4 img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark">
+                <div class="text-white text-center py-4 fw-medium">©2024 Word Of Mouth, Inc. - Made by Gurleen Kaur
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- /footer section -->
+    <!-- jquery file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- bootstrap file -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js file -->
+    <script src="./assets/js/style.js"></script>
+</body>
+
+</html>
