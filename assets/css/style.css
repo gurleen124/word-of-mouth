@@ -11915,6 +11915,10 @@ textarea.form-control-lg {
   background-color: #F47852 !important;
   border-color: #F47852 !important;
 }
+.default li.nav-item.tabTheme.active {
+  background-color: #F47852 !important;
+  color: #EFEFEF;
+}
 
 .primary a {
   text-decoration-color: #2D3282 !important;
@@ -11936,6 +11940,10 @@ textarea.form-control-lg {
 .primary button.textTheme {
   background-color: #2D3282 !important;
   border-color: #2D3282 !important;
+}
+.primary li.nav-item.tabTheme.active {
+  background-color: #2D3282 !important;
+  color: #EFEFEF;
 }
 
 .success a {
@@ -11959,6 +11967,10 @@ textarea.form-control-lg {
   background-color: #198754 !important;
   border-color: #198754 !important;
 }
+.success li.nav-item.tabTheme.active {
+  background-color: #198754 !important;
+  color: #EFEFEF;
+}
 
 .danger a {
   text-decoration-color: #dc3545 !important;
@@ -11980,6 +11992,10 @@ textarea.form-control-lg {
 .danger button.textTheme {
   background-color: #dc3545 !important;
   border-color: #dc3545 !important;
+}
+.danger li.nav-item.tabTheme.active {
+  background-color: #dc3545 !important;
+  color: #EFEFEF;
 }
 
 /*===== lancding page bg image =====*/

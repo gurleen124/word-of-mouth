@@ -74,9 +74,12 @@
         background-color: $default !important;
         border-color: $default !important;
     }
+
+    li.nav-item.tabTheme.active {
+        background-color: $default !important;
+        color: $light-color;
+    }
 }
-
-
 
 .default {
     @include default($default: $warning-color);
@@ -134,47 +137,14 @@ nav {
     }
 }
 
+
 // section {
 //     ul.nav-tabs {
-//         li {
-//             .nav-item.active {
-//                 background-color: $light-color;
-//                 color: $warning-color;
+//         li.nav-item.active {
+//             background-color: $warning-color;
 
-//                 .nav-item {
-//                     color: $light-color;
-//                     background-color: $warning-color;
-//                 }
-//             }
-
-//             .btn-primary.active {
-//                 background-color: $light-color;
-//                 color: $primary-color;
-
-//                 .btn-primary {
-//                     color: $light-color;
-//                     background-color: $primary-color;
-//                 }
-//             }
-
-//             .btn-success.active {
-//                 background-color: $light-color;
-//                 color: $success-color;
-
-//                 .btn-success {
-//                     color: $light-color;
-//                     background-color: $success-color;
-//                 }
-//             }
-
-//             .btn-danger.active {
-//                 background-color: $light-color;
-//                 color: $danger-color;
-
-//                 .btn-danger {
-//                     color: $light-color;
-//                     background-color: $danger-color;
-//                 }
+//             .nav-item {
+//                 background-color: transparent;
 //             }
 //         }
 //     }
