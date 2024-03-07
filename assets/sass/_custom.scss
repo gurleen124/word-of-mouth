@@ -1,6 +1,6 @@
 /*===== homepage bg image =====*/
 .bg-hero {
-    background-image: url(/assets/images/hero-bg.png);
+    background-image: url(../../assets/images/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -99,7 +99,7 @@
 
 /*===== lancding page bg image =====*/
 .bg-landing {
-    background-image: url(/assets/images/landing-bg.png);
+    background-image: url(../../assets/images/landing-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -110,7 +110,7 @@ main {
         div {
             select.form-select {
                 border: 1px solid $dark-border-subtle;
-                --bs-form-select-bg-img: url(/assets/images/triangle.png);
+                --bs-form-select-bg-img: url(../../assets/images/triangle.png);
                 background-size: 8px 12px;
             }
 
@@ -126,7 +126,7 @@ main {
 
 /*===== background image about page =====*/
 .bg-about {
-    background-image: url(/assets/images/about-bg.png);
+    background-image: url(../../assets/images/about-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -139,6 +139,6 @@ nav {
 
 
 .req-field::after {
-    color: red;
+    color: $danger-color;
     content: " *";
 }
