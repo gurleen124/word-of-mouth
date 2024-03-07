@@ -131,13 +131,13 @@ main {
     background-repeat: no-repeat;
 }
 
-nav {
-    div.d-grid {
-        justify-items: center;
-    }
-}
+// nav {
+//     div.d-grid {
+//         justify-items: center;
+//     }
+// }
 
-
+/*===== profile page required field =====*/
 .req-field::after {
     color: $danger-color;
     content: " *";
