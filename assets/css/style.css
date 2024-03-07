@@ -12029,4 +12029,9 @@ nav div.d-grid {
   justify-items: center;
 }
 
+.req-field::after {
+  color: red;
+  content: " *";
+}
+
 /*# sourceMappingURL=style.css.map */

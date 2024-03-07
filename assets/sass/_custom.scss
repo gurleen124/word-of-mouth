@@ -138,14 +138,7 @@ nav {
 }
 
 
-// section {
-//     ul.nav-tabs {
-//         li.nav-item.active {
-//             background-color: $warning-color;
-
-//             .nav-item {
-//                 background-color: transparent;
-//             }
-//         }
-//     }
-// }
+.req-field::after {
+    color: red;
+    content: " *";
+}

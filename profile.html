@@ -137,240 +137,203 @@
     </header>
     <!--  /header section  -->
     <!-- main section -->
-    <main class="bg-secondary">
+    <main class="bg-light">
         <section class="pb-5">
             <div class="container px-0">
                 <h2 class="text-primary fs-1 fw-semibold py-4 mb-0">Profile</h2>
                 <ul class="nav nav-tabs">
-                    <li class="nav-item active tabTheme">
+                    <li class="nav-item active tabTheme rounded-top-3 bg-secondary">
                         <a class="nav-link text-reset" href="#a" data-toggle="tab"><img src="./assets/images/person.png"
                                 alt="profile"><span class="ms-2">Basic Info</span></a>
                     </li>
-                    <li class="nav-item tabTheme">
-                        <a class="nav-link text-reset" href="#b" data-toggle="tab"><img src="./assets/images/demographics.svg"
-                                alt="demographics"><span class="ms-2">Demographics</span></a>
+                    <li class="nav-item tabTheme rounded-top-3 bg-secondary">
+                        <a class="nav-link text-reset" href="#b" data-toggle="tab"><img
+                                src="./assets/images/demographics.svg" alt="demographics"><span
+                                class="ms-2">Demographics</span></a>
                     </li>
-                    <li class="nav-item tabTheme">
-                        <a class="nav-link text-reset" href="#c" data-toggle="tab"><img src="./assets/images/treatment.png"
-                                alt="treatment"><span class="ms-2">Treatment Modalities</span></a>
+                    <li class="nav-item tabTheme rounded-top-3 bg-secondary">
+                        <a class="nav-link text-reset" href="#c" data-toggle="tab"><img
+                                src="./assets/images/treatment.png" alt="treatment"><span class="ms-2">Treatment
+                                Modalities</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true" href="#"><img src="./assets/images/specialities.png"
-                                alt="specialities"><span class="ms-2">Specialties</span></a>
+                    <li class="nav-item rounded-top-3 bg-secondary">
+                        <a class="nav-link disabled" aria-disabled="true" href="#"><img
+                                src="./assets/images/specialities.png" alt="specialities"><span
+                                class="ms-2">Specialties</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true" href="#"><img src="./assets/images/client-focus.png"
-                                alt="client-focus"><span class="ms-2">Client Focus</span></a>
+                    <li class="nav-item rounded-top-3 bg-secondary">
+                        <a class="nav-link disabled" aria-disabled="true" href="#"><img
+                                src="./assets/images/client-focus.png" alt="client-focus"><span class="ms-2">Client
+                                Focus</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true" href="#"><img src="./assets/images/fees.png" alt="fees"><span
-                                class="ms-2">Fees</span></a>
+                    <li class="nav-item rounded-top-3 bg-secondary">
+                        <a class="nav-link disabled" aria-disabled="true" href="#"><img src="./assets/images/fees.png"
+                                alt="fees"><span class="ms-2">Fees</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true" href="#"><img src="./assets/images/recommendation.png"
-                                alt="recommendations"><span class="ms-2">Recommendations</span></a>
+                    <li class="nav-item rounded-top-3 bg-secondary">
+                        <a class="nav-link disabled" aria-disabled="true" href="#"><img
+                                src="./assets/images/recommendation.png" alt="recommendations"><span
+                                class="ms-2">Recommendations</span></a>
                     </li>
                 </ul>
-                <div class="tab-content">
-                    <!-- tab one -->
-                    <div class="tab-pane active" id="a">
-                        <div class="container pt-3 bg-white px-5">
-                            <form class="row g-3 needs-validation" novalidate>
-                                <h3 class="text-primary fw-semibold py-4 textTheme">Basic Information</h3>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="fname" class="form-label">First Name</label>
-                                            <input type="text" class="form-control has-validation" id="fname"
-                                                aria-describedby="basic-addon3 basic-addon4" value="John" required>
-                                            <div class="valid-feedback">
-                                                Looks good!
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="lname" class="form-label">Last Name</label>
-                                            <input type="text" class="form-control has-validation" id="lname"
-                                                aria-describedby="basic-addon3 basic-addon4" value="Doe">
-                                            <div class="valid-feedback">
-                                                Looks good!
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="basic-url" class="form-label">Professional Degree</label>
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Open this select menu</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 pb-5 mt-2">
-                                        <button class="btn btn-warning text-light text-uppercase fw-bold textTheme"
-                                            type="submit">Save
-                                            Changes</button>
-                                    </div>
+            </div>
+            <div class="tab-content">
+                <!-- tab one -->
+                <div class="tab-pane active" id="a">
+                    <div class="container pt-3 bg-white px-5">
+                        <h3 class="text-primary fw-semibold py-4 textTheme">Basic Information</h3>
+                        <form class="row g-3 needs-validation" novalidate="">
+                            <div class="col-lg-6 mb-3">
+                                <label for="fname" class="form-label req-field">First Name</label>
+                                <input type="text" class="form-control" id="fname" value="John" required="">
+                                <div class="valid-feedback">
+                                    Looks good!
                                 </div>
-                            </form>
-                        </div>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="lname" class="form-label req-field">Last Name</label>
+                                <input type="text" class="form-control" id="lname" value="Doe" required="">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="basic-url" class="form-label req-field">Professional Degree</label>
+                                <select class="form-select">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-12 pb-5 mt-2">
+                                <button class="btn btn-warning text-light text-uppercase fw-bold textTheme"
+                                    type="submit">Save
+                                    Changes</button>
+                            </div>
+                        </form>
                     </div>
-                    <!-- /tab one -->
-                    <!-- tab two -->
-                    <div class="tab-pane" id="b">
-                        <div class="container pt-3 bg-white px-5">
-                            <form class="row g-3 needs-validation" novalidate>
-                                <h3 class="text-primary fw-semibold py-4 textTheme">Contact Information</h3>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="phone" class="form-label">Phone Number</label>
-                                            <input type="tel" class="form-control has-validation" id="phone"
-                                                aria-describedby="basic-addon3 basic-addon4" value="555-555-5555">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="email" class="form-control has-validation" id="email"
-                                                aria-describedby="basic-addon3 basic-addon4" value="john.doe@email.com">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="address" class="form-label">Street Address</label>
-                                            <input type="text" class="form-control has-validation" id="address"
-                                                aria-describedby="basic-addon3 basic-addon4"
-                                                placeholder="Enter Street Address">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="city" class="form-label">City</label>
-                                            <input type="text" class="form-control has-validation" id="city"
-                                                aria-describedby="basic-addon3 basic-addon4" value="Cleveland">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="state" class="form-label">State</label>
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Ohio</option>
-                                                <option value="1">New York</option>
-                                                <option value="2">California</option>
-                                                <option value="3">NV</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="code" class="form-label">Zip Code</label>
-                                            <input type="text" class="form-control has-validation" id="code"
-                                                aria-describedby="basic-addon3 basic-addon4" value="44114">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="url" class="form-label">Website URL</label>
-                                            <input type="url" class="form-control has-validation" id="url"
-                                                aria-describedby="basic-addon3 basic-addon4"
-                                                placeholder="Enter Website URL">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="contactMethod" class="form-label">Preferred Contact
-                                                Method</label>
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Email</option>
-                                                <option value="1">Phone</option>
-                                                <option value="2">Text</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 pb-5 mt-2">
-                                        <button class="btn btn-warning text-light text-uppercase fw-bold textTheme"
-                                            type="submit">Save
-                                            Changes</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- /tab two -->
-                    <!-- tab three -->
-                    <div class="tab-pane" id="c">
-                        <div class="container pt-3 bg-white px-5">
-                            <form class="row g-3 needs-validation" novalidate>
-                                <h3 class="text-primary fw-semibold py-4 textTheme">Availability</h3>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="mb-3">
-                                            <label for="basic-url" class="form-label">Ages Served</label>
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>0-3</option>
-                                                <option value="1">4-13</option>
-                                                <option value="2">14-21</option>
-                                                <option value="3">22-65</option>
-                                                <option value="4">65+</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="hours" class="form-label">Office Hours</label>
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Monday</option>
-                                                <option value="1">Tuesday</option>
-                                                <option value="2">Wednesday</option>
-                                                <option value="3">Thursday</option>
-                                                <option value="4">Friday</option>
-                                                <option value="5">Saturday</option>
-                                                <option value="6">Sunday</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mb-3">
-                                            <label for="time" class="form-label">Time of the Day</label>
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Morning</option>
-                                                <option value="1">Afternoon</option>
-                                                <option value="2">Evening</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-check mb-2">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                                        <label class="form-check-label" for="flexCheckDefault1">
-                                            Currently accepting new patients
-                                        </label>
-                                    </div>
-                                    <div class="form-check mb-2">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                                        <label class="form-check-label" for="flexCheckDefault2">
-                                            Video/Teletherapy Provided
-                                        </label>
-                                    </div>
-                                    <div class="form-check mb-2">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                                        <label class="form-check-label" for="flexCheckDefault3">
-                                            Notify favorite colleagues
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-12 pb-5 mt-2">
-                                    <button class="btn btn-warning text-light text-uppercase fw-bold textTheme" type="submit">Save
-                                        Changes</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- /tab three -->
                 </div>
+                <!-- /tab one -->
+                <!-- tab two -->
+                <div class="tab-pane" id="b">
+                    <div class="container pt-3 bg-white px-5">
+                        <h3 class="text-primary fw-semibold py-4 textTheme">Contact Information</h3>
+                        <form class="row g-3 needs-validation" novalidate="">
+                            <div class="col-lg-6 mb-3">
+                                <label for="phone" class="form-label req-field">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" value="555-555-5555">
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="email" class="form-label req-field">Email</label>
+                                <input type="email" class="form-control" id="email" value="john.doe@email.com">
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="address" class="form-label">Street Address</label>
+                                <input type="text" class="form-control" id="address" placeholder="Enter Street Address">
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="city" class="form-label">City</label>
+                                <input type="text" class="form-control" id="city" value="Cleveland">
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="state" class="form-label">State</label>
+                                <select class="form-select">
+                                    <option selected>Ohio</option>
+                                    <option value="1">New York</option>
+                                    <option value="2">California</option>
+                                    <option value="3">NV</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="code" class="form-label">Zip Code</label>
+                                <input type="text" class="form-control" id="code" value="44114">
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="url" class="form-label">Website URL</label>
+                                <input type="url" class="form-control" id="url" placeholder="Enter Website URL">
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="contactMethod" class="form-label req-field">Preferred Contact
+                                    Method</label>
+                                <select class="form-select">
+                                    <option selected>Email</option>
+                                    <option value="1">Phone</option>
+                                    <option value="2">Text</option>
+                                </select>
+                            </div>
+                            <div class="col-12 pb-5 mt-2">
+                                <button class="btn btn-warning text-light text-uppercase fw-bold textTheme"
+                                    type="submit">Save
+                                    Changes</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /tab two -->
+                <!-- tab three -->
+                <div class="tab-pane" id="c">
+                    <div class="container pt-3 bg-white px-5">
+                        <h3 class="text-primary fw-semibold py-4 textTheme">Availability</h3>
+                        <form class="row g-3 needs-validation" novalidate="">
+                            <div class="col-lg-12 mb-3">
+                                <label for="basic-url" class="form-label req-field">Ages Served</label>
+                                <select class="form-select">
+                                    <option selected>0-3</option>
+                                    <option value="1">4-13</option>
+                                    <option value="2">14-21</option>
+                                    <option value="3">22-65</option>
+                                    <option value="4">65+</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="hours" class="form-label req-field">Office Hours</label>
+                                <select class="form-select">
+                                    <option selected>Monday</option>
+                                    <option value="1">Tuesday</option>
+                                    <option value="2">Wednesday</option>
+                                    <option value="3">Thursday</option>
+                                    <option value="4">Friday</option>
+                                    <option value="5">Saturday</option>
+                                    <option value="6">Sunday</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="time" class="form-label req-field">Time of the Day</label>
+                                <select class="form-select">
+                                    <option selected>Morning</option>
+                                    <option value="1">Afternoon</option>
+                                    <option value="2">Evening</option>
+                                </select>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Currently accepting new patients
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Video/Teletherapy Provided
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                    Notify favorite colleagues
+                                </label>
+                            </div>
+                            <div class="col-12 pb-5 mt-2">
+                                <button class="btn btn-warning text-light text-uppercase fw-bold textTheme"
+                                    type="submit">Save
+                                    Changes</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /tab three -->
+            </div>
         </section>
     </main>
     <!-- /main section -->
