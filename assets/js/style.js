@@ -10,4 +10,10 @@ $(document).ready(function () {
         $('body').removeClass();
         $('body').addClass(text);
     });
+    $(".nav-tabs li a").click(function(){
+        $('.tab-pane div.container').toggleClass('d-none');
+    });
+    $("section.features div a").click(function(){
+        $(this).siblings('p').toggleClass('d-none');
+    });
 });

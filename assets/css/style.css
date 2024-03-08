@@ -12024,10 +12024,7 @@ main section div input.form-control {
   background-repeat: no-repeat;
 }
 
-nav div.d-grid {
-  justify-items: center;
-}
-
+/*===== profile page required field =====*/
 .req-field::after {
   color: #dc3545;
   content: " *";
